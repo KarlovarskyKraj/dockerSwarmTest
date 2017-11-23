@@ -1,0 +1,15 @@
+# RAID - all raid VMs
+# OS-specific
+.DS_Store
+
+# Editor swapfiles
+.*.sw?
+*~
+
+# Vagrant stuff
+boxes/*
+.vagrant/
+master/.vagrant/*
+node01/.vagrant/*
+control/.vagrant/*
+
